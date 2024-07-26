@@ -1,8 +1,6 @@
 import uvicorn
 from fastapi import FastAPI
 import pickle
-import numpy as np
-import pandas as pd
 from pydantic import BaseModel
 
 app = FastAPI()
